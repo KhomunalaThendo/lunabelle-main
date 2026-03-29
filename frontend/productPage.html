@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">La Dignitas Co.</div>
+        <div class="navItems">
+            <a href="#shop">SHOP</a>
+            <a href="#">COLLECTIONS</a>
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">ABOUT</a>
+        </div>
+        <div class="searchCart">
+            <div class="search">
+                <input type="text" placeholder="Search...">
+            </div>
+            <a href="#cart">
+                <img src="src/icons/cart.svg" alt="">
+                <P id="cartCount"></P>
+            </a>
+            <a href="#">
+                <img src="src/icons/profile.svg" alt="">
+            </a>
+
+        </div>
+    </nav>
+</header>
+<section class="productPage">
+    <div class="product-container">
+        <!--Image section-->
+        <div class="image-container">
+            <div class="product-images">
+                <img src="" class="main-image">
+                <div class="thumbnail-container">
+            </div>
+        </div>
+    </div>
+        
+        <!--Info section-->
+        <div class="product-info">
+            <h1 class="product-name"></h1>
+            <p class="product-price"></p>
+            <p class="product-description"></p>
+
+            <!-- COLORS -->
+            <h4>Color</h4>
+            <div class="colors"></div>
+
+            <div class="sizes"></div>
+            <button class="add-to-cart">Add To Cart</button>
+        </div>
+
+        
+    </div>
+        
+    </div>
+    <!--Related products-->
+    <h2>Related Products</h2>
+    <div class="related-products"></div>
+
+</section>
+<script src="index.js"></script>    
+<script src="product.js"></script>    
+</body>
+</html>
