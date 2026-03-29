@@ -486,7 +486,7 @@ a{
     box-shadow: var(--shadow-glow);
 }
 
-/* ===== SIZES UPGRADE ===== */
+/* ==== SIZES UPGRADE ===== */
 .sizes {
     display: flex;
     gap: 10px;

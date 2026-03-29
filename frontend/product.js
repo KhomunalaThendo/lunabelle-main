@@ -61,7 +61,7 @@ product.colors.forEach(color => {
     });
 
 
-    //ADD TO CART
+    //ADD TO CARt
     document.querySelector('.add-to-cart').onclick = () => {
         const selectedSize = document.querySelector('.sizes .acive');
 
