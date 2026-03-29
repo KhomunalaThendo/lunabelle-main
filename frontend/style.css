@@ -298,9 +298,11 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 55dvh;
+    flex-wrap: wrap;
+    height: 90dvh;
     width: 100dvw;
     gap: 1rem;
+    overflow: hidden;
 }
 .productCard{
     display: flex;
@@ -310,7 +312,7 @@ nav {
     outline: 3px solid var(--color-border);
 }
 .productCard img{
-    width: 25dvw;
+    width: 35dvw;
     height: 32dvh;
 }
 .productDetails{
@@ -595,8 +597,8 @@ a{
         flex-wrap: wrap;
     }
     .productCard img{
-        height: 20dvh;
-        width: 20dvw;
+        height: 30dvh;
+        width: 45dvw;
     }
 
     #about{

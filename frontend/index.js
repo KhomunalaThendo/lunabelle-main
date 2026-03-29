@@ -24,7 +24,7 @@ const products = [
 },
 {
     id: 3,
-    images: ['./src/tight-top.jpg'],
+    images: ['./src/category1.png'],
     title: 'La Flexa Top',
     price: 75.00,
     category: 'clothing',
