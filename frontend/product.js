@@ -1,3 +1,4 @@
+
 const params = new URLSearchParams(window.location.search);
     const productId = params.get("id");
 
@@ -64,7 +65,8 @@ product.colors.forEach(color => {
     //ADD TO CARt
     document.querySelector('.add-to-cart').onclick = () => {
         const selectedSize = document.querySelector('.sizes .acive');
-
+        const cartCount = document.getElementById('cartCount');
+        cartCount = 0;
         if (!selectedSize){
             alert('Please select a size');
             return;
@@ -83,6 +85,9 @@ product.colors.forEach(color => {
         localStorage.setItem('cart', JSON.stringify(cart));
 
         alert('Added to cart');
+
+        cartCount = document.innerText = cart.length;
+
 
 
     }
